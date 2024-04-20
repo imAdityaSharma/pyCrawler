@@ -2,7 +2,7 @@
 import asyncio
 from crawler import crawler
 async def get_data_from_crawler():
-    my_crawler = crawler('https://www.geeksforgeeks.org/')
+    my_crawler = crawler('YOUR LINK HERE')
     async for data in my_crawler.crawler():
         print(data)
 
